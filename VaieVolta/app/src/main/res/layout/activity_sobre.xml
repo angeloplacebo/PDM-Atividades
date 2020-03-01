@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top|center"
+    android:background="@drawable/gradient_background"
+    android:orientation="vertical"
+    >
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="80sp" />
+
+    <ImageView
+        android:id="@+id/ivMe"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/image_me"
+        android:contentDescription="@string/img_desc"/>
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="40sp" />
+
+    <TextView
+        android:id="@+id/tvNome"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nome"
+        android:textColor="@color/white"/>
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="20sp" />
+
+    <TextView
+        android:id="@+id/tvEmail"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/email"
+        android:textColor="@color/white"/>
+
+</LinearLayout>
