@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="20sp"
+    android:layout_marginRight="20sp">
+
+    <Button
+        android:id="@+id/btHtml"
+        android:text="HTML"
+        android:layout_marginTop="10sp"
+        android:layout_marginBottom="10sp"
+        android:textColor="@color/white"
+        android:background="@drawable/btn_shape"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/btDiscar"
+        android:text="DISCAR"
+        android:layout_marginTop="10sp"
+        android:layout_marginBottom="10sp"
+        android:textColor="@color/white"
+        android:background="@drawable/btn_shape"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/btLigar"
+        android:text="LIGAR"
+        android:layout_marginTop="10sp"
+        android:layout_marginBottom="10sp"
+        android:textColor="@color/white"
+        android:background="@drawable/btn_shape"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/btCompartilhar"
+        android:text="COMPARTILHAR"
+        android:layout_marginTop="10sp"
+        android:layout_marginBottom="10sp"
+        android:textColor="@color/white"
+        android:background="@drawable/btn_shape"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/btEmail"
+        android:text="E-MAIL"
+        android:layout_marginTop="10sp"
+        android:layout_marginBottom="10sp"
+        android:textColor="@color/white"
+        android:background="@drawable/btn_shape"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/btPonto"
+        android:text="PONTO NO MAPA"
+        android:layout_marginTop="10sp"
+        android:layout_marginBottom="10sp"
+        android:textColor="@color/white"
+        android:background="@drawable/btn_shape"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/btRota"
+        android:text="ROTA DO MAPA"
+        android:layout_marginTop="10sp"
+        android:layout_marginBottom="10sp"
+        android:textColor="@color/white"
+        android:background="@drawable/btn_shape"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/btSms"
+        android:text="SMS"
+        android:layout_marginTop="10sp"
+        android:layout_marginBottom="10sp"
+        android:textColor="@color/white"
+        android:background="@drawable/btn_shape"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/btYoutube"
+        android:text="YOUTUBE"
+        android:layout_marginTop="10sp"
+        android:layout_marginBottom="10sp"
+        android:textColor="@color/white"
+        android:background="@drawable/btn_shape"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/btFoto"
+        android:text="FOTO"
+        android:layout_marginTop="10sp"
+        android:layout_marginBottom="10sp"
+        android:textColor="@color/white"
+        android:background="@drawable/btn_shape"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+</LinearLayout>

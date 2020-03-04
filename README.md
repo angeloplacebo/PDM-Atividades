@@ -6,3 +6,5 @@
 ### Atividade 2 : Autentica
 
 ### Atividade 3 : Vai e Volta
+
+### Atividade 4 : Diversos
