@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="10sp"
+    android:layout_marginRight="10sp"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btMensagem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:layout_marginBottom="10sp"
+        android:background="@drawable/shape_btn"
+        android:text="Mensagem"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10sp"
+        android:background="@drawable/shape_btn"
+        android:text="input"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10sp"
+        android:background="@drawable/shape_btn"
+        android:text="data"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btHora"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10sp"
+        android:background="@drawable/shape_btn"
+        android:text="hora"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btFaixa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10sp"
+        android:background="@drawable/shape_btn"
+        android:text="faixa de valores"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btEscolha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10sp"
+        android:background="@drawable/shape_btn"
+        android:text="escolha"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btUnico"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10sp"
+        android:background="@drawable/shape_btn"
+        android:text="Unico"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btVarios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10sp"
+        android:background="@drawable/shape_btn"
+        android:text="varios"
+        android:textColor="#FFFFFF" />
+
+
+</LinearLayout>
