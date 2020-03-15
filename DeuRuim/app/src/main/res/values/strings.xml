@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Deu Ruim</string>
+    <string name="bitmap_image">Bitmap Image</string>
+    <string name="cancelar">cancelar</string>
+    <string name="salvar">Salvar</string>
+    <string name="foto">foto</string>
+    <string name="descri_o">Descrição</string>
+    <string name="evento">Evento</string>
+    <string name="novo">Novo</string>
+    <string name="x">X</string>
+</resources>

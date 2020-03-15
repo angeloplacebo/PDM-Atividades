@@ -12,3 +12,5 @@
 ### Atividade 5 : Imagens
 
 ### Atividade 6 : Popup
+
+### Atividade 7 : Deu Ruim
