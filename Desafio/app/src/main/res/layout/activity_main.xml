@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    tools:context=".MainActivity">
+<Button
+    android:id="@+id/btInfo"
+    android:layout_gravity="end"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="#FFF"
+    android:text="INFO"
+    android:background="@drawable/bt_info"
+    />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvTip01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12sp"
+            android:text="O numero é divisivel por"
+            android:textSize="20sp"
+            android:textColor="#FFF"
+            android:padding="10sp"
+            android:background="@drawable/tv_shape"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/tvTip02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12sp"
+            android:text="O número é "
+            android:textColor="#FFF"
+            android:padding="10sp"
+            android:background="@drawable/tv_shape"
+            android:textSize="20sp"
+
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/tvTip03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20sp"
+            android:text="Quantidade de divisores desse número"
+            android:padding="10sp"
+            android:textColor="#FFF"
+            android:background="@drawable/tv_shape"
+            android:textSize="20sp"
+
+            tools:ignore="HardcodedText" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btChutar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_shape"
+        android:text="CHUTAR"
+        android:textColor="#FFF"
+        tools:ignore="HardcodedText" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
