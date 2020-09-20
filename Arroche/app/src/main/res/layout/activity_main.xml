@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/btInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:background="@drawable/bt_info"
+        android:text="INFO"
+        android:textColor="#FFF" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvLi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:textSize="42sp" />
+
+            <Space
+                android:layout_width="50sp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="X"
+                android:textSize="42sp" />
+
+            <Space
+                android:layout_width="30sp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvLs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10"
+                android:textSize="42sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:text="Limite Inferior"
+                android:textSize="12sp" />
+
+            <Space
+                android:layout_width="80sp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:text="Limite Superior"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/etChute"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100sp"
+            android:layout_marginRight="100sp"
+            android:layout_marginBottom="10sp"
+            android:layout_marginTop="30sp"
+            android:imeOptions="actionGo"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/btChute"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bt_shape"
+            android:text="chutar"
+            android:textColor="#FFF" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10sp"
+        android:gravity="end"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/btRestart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:background="@drawable/bt_rounded"
+            android:text="restart"
+            android:textColor="#FFF" />
+
+        <Space
+            android:layout_width="6sp"
+            android:layout_height="0sp" />
+
+        <Button
+            android:id="@+id/btVerChutes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:background="@drawable/bt_rounded"
+            android:text="chutes"
+            android:textColor="#FFF" />
+
+        <Space
+            android:layout_width="6sp"
+            android:layout_height="0sp" />
+    </LinearLayout>
+</LinearLayout>
