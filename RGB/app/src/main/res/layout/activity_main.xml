@@ -31,7 +31,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="10sp"
             android:gravity="center"
-            android:text="Red"
+            android:text=""
             android:textColor="@color/Red"
             android:textSize="22sp"
             android:textStyle="italic" />
@@ -42,7 +42,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="10sp"
             android:gravity="center"
-            android:text="Green"
+            android:text=""
             android:textColor="@color/Green"
             android:textSize="22sp"
             android:textStyle="italic" />
@@ -53,7 +53,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="10sp"
             android:gravity="center"
-            android:text="Blue"
+            android:text=""
             android:textColor="@color/Blue"
             android:textSize="22sp"
             android:textStyle="italic" />
