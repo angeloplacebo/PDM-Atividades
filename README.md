@@ -22,3 +22,5 @@
 ### Atividade 10 : Minhas Cores Preferidas
 
 ### Atividade 11 : RGB
+
+### Atividade 12 : Minhas Tarefas

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FormActivity">
+
+    <TextView
+        android:id="@+id/tvFormTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:padding="18sp"
+        android:text="Cadastro de Tarefa"
+        android:textColor="#FFF"
+        android:textSize="18sp"
+        android:textStyle="italic" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="50sp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/etFormNome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30sp"
+            android:layout_marginTop="30sp"
+            android:gravity="center"
+            android:hint="Nome"
+            android:inputType="text"
+            android:textColor="@color/colorRed"
+            android:textSize="18sp" />
+
+        <!--        <EditText-->
+        <!--            android:id="@+id/tvFormPrioridade"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_marginBottom="30sp"-->
+        <!--            android:gravity="center"-->
+        <!--            android:hint="Prioridade"-->
+        <!--            android:inputType="text"-->
+        <!--            android:textColor="@color/colorRed"-->
+        <!--            android:textSize="18sp" />-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Prioridade:"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="30sp"
+                android:layout_height="0sp" />
+
+            <NumberPicker
+                android:id="@+id/npFormPrioridade"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.9"
+                android:scaleY="0.9" />
+
+        </LinearLayout>
+
+
+        <Spinner
+            android:id="@+id/sStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30sp"
+            android:layout_marginHorizontal="30sp"
+            android:entries="@array/status"
+            android:gravity="center"
+            android:textColor="@color/colorRed" />
+
+        <LinearLayout
+            android:layout_marginTop="10sp"
+            android:id="@+id/llButtons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btFormCancelar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_shape"
+                android:backgroundTint="#DD1212"
+                android:text="Cancelar"
+                android:textColor="#FFF" />
+
+            <Space
+                android:layout_width="40sp"
+                android:layout_height="0sp" />
+
+            <Button
+                android:id="@+id/btFormSalvar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_shape"
+                android:backgroundTint="#03DA64"
+                android:text="Salvar"
+                android:textColor="#FFF" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

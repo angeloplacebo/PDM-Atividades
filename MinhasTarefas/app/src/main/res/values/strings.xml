@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Minhas Tarefas</string>
+    <string-array name="status">
+        <item>Aberto</item>
+        <item>Executando</item>
+        <item>Concluído</item>
+    </string-array>
+</resources>
